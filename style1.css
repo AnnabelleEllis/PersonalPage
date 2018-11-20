@@ -1,0 +1,111 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+	background-color: #00EEEE ; /*#00ffef #DB7C26 #F7B538 #D8572A rgba(51,255,255);*/
+	border-bottom: 1px solid white;
+	height: 10vh;
+	/*display: none;*/
+}
+
+.name{
+	float:left;
+	margin-top: 15px;
+	color: white;/*rgb(138,43,226);*/
+	/*font-family: "Trattatello", fantasy;*/
+	font-family: Apple Chancery, cursive;
+	/*Brush Script MT, Brush Script Std, cursive;*/
+	/*"Apple Chancery", cursive;*/
+	/*font-family: serif , cursive;*/
+	font-style: italic;
+	font-weight: 100px;
+	/*border-bottom: 1px solid white;*/
+}
+
+.main-nav{
+	float:right;
+	list-style:none;
+	margin-top: 30px;
+	padding-bottom: : 5px;
+}
+
+.main-nav li{
+	display: inline-block;
+	padding-bottom: : 5px;
+}
+
+.main-nav li a{
+	color: white;
+	text-decoration: none;
+	padding: 10px 40px;
+	font-family: "ROBOTO", sans-serif;
+	font-size: 15px;
+	border: 1px solid white;
+}
+
+.main-nav li.active a{
+	border: 1px solid white;
+
+}
+
+.main-nav li a:hover{
+	border: 1px solid transparent;
+	background-color: #00ffef;
+	transition: all 0.5s ease-in;
+	color: white;
+	font-weight: bold;
+}
+
+
+.maingridcontainer{
+	display:grid;
+	grid-template-columns: repeat(3, 1fr);
+	/*grid-row-gap: 1em;
+	grid-column-gap: 1em;*/
+	grid-gap:1em; 
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('keyboard.jpg');
+	background-repeat: no-repeat;
+	float:right;
+	background-size: cover;
+  	background-position: center;
+  	background-attachment: fixed;
+  	overflow-y: auto;
+}
+
+.maingridcontainer > div{
+	/*background: #eee;*/
+	padding: 1em;
+	margin-top: 20px;
+	color:white;
+}
+
+.maingridcontainer > div:nth-child(odd){
+	/*background:#ddd;*/
+}
+
+.maingridcontainer img{
+	height: 30vh;
+	border-radius: 100px;
+	/*float:left;*/
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding:80px;
+}
+
+.besideImage p{
+	/*float:right;*/
+	/*text-align: center;*/
+	/*display:block;
+	margin-left: auto;
+    margin-right: auto;*/
+    /*width: 50%;*/
+	/*overflow: auto;*/
+	padding:50px;
+}
+
+
